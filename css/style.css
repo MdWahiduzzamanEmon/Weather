@@ -1,0 +1,7 @@
+body{
+    background: url(image/blue-bg.jpg) no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    background-position: cover cover;
+    height: 100vh;
+}
