@@ -8,7 +8,7 @@ button.addEventListener('click', () => {
     inputField.value = "";
     const productKey = "d05917453941bd3ccb388c27f0755205";
      if (countryNameValue == 0) {
-        alert("Please Enter tour city name");
+        alert("Please Enter your city name");
       } else {
         const url = `https://api.openweathermap.org/data/2.5/weather?q=${countryNameValue}&appid=${productKey}`;
          fetch(url)
@@ -26,7 +26,9 @@ const getValue = datas => {
 
   const temp = document.getElementById("temp");
   temp.innerText = Math.round(getTemp - 273);
-  // country
+  3
+
+
   countryName.innerText = datas.sys.country;
   // weather details
   const weather = document.getElementById("weather");
